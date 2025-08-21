@@ -98,7 +98,11 @@ This tool helps you create a perfectly cropped and sized Indian passport photo (
 
 ## To Do
 
-- Thinking about letting user select between 2x2 requirements (i.e. existing use case) and for use in India ()
+- Investigating expanding beyond VFS guidelines to work with requirements of other types of applications for different countries and services (e.g. US passport).
+    - Would mean allowing users to select from the beginning what they're working on.
+- Improve testing.
+    - Right now, I just used an image or two to run through the program and then manually verified the final output met requirements. Need to test this with a lot more photos to find and account for edge cases.
+- Find a way to make overlays look a little more cleaner and easier to read.
 
 ---
 
